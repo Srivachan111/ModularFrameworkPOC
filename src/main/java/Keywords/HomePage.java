@@ -20,7 +20,9 @@ public class HomePage extends BaseClass{
 		
 	}
  
-	
+	public void navToTabs(String option) {
+		dropdown(locate.home.listNavTabs, option);
+	}
 	
 	
 

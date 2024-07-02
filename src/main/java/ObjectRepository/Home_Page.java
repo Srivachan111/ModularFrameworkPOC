@@ -11,6 +11,10 @@ public class Home_Page {
 	WebDriver driver;
 	
 	
+	@FindBy(xpath = "//ul[@id=\"nav-top-menu\"]/li")
+	public List<WebElement> listNavTabs; 
+	
+	
 	public Home_Page(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
