@@ -1,5 +1,5 @@
 package TestCase;
 
-public class Home {
+public class SignIn {
 
 }

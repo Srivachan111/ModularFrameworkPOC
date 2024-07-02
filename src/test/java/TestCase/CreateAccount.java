@@ -10,7 +10,7 @@ import DataFiles.DataParser;
 import ObjectRepository.LocatorRepository;
 import UtilityLibrary.BaseClass;
 
-public class Roles extends BaseClass {
+public class CreateAccount extends BaseClass {
 	public WebDriver driver = initDriver("Chrome");
 	public Map<Object, Object> loginData;
 	public void dataFetcher() throws IOException {
