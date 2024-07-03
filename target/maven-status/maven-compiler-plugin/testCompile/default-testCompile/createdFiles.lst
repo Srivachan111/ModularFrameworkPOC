@@ -1,0 +1,5 @@
+TestCase\PurchaseHistory.class
+TestCase\AddToBag.class
+TestCase\CreateAccount.class
+TestCase\SignIn.class
+TestCase\Wishlist.class
