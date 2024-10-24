@@ -1,0 +1,4 @@
+2024-08-05 15:19:51,186 [main] INFO  addCandidateOne - opening techscore site
+2024-08-05 15:19:54,612 [main] INFO  addCandidateOne - Log in page
+2024-08-05 15:19:54,612 [main] INFO  addCandidateOne -  : login()
+2024-08-05 15:19:55,944 [main] INFO  addCandidateOne -  : logout()

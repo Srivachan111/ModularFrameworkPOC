@@ -1,0 +1,6 @@
+2024-07-31 17:14:03,274 [main] INFO  addCandidateTwo - opening techscore site Two
+2024-07-31 17:14:07,501 [main] INFO  addCandidateTwo - Log in page Two
+2024-07-31 17:14:07,501 [main] INFO  addCandidateTwo -  : login()
+2024-07-31 17:14:08,436 [main] INFO  addCandidateTwo - Successfully login :
+2024-07-31 17:14:08,436 [main] INFO  addCandidateTwo -  : logout()
+2024-07-31 17:14:09,674 [main] INFO  addCandidateTwo - Successfully logout 

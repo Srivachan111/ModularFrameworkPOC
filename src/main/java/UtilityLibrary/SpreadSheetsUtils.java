@@ -156,4 +156,31 @@ public class SpreadSheetsUtils {
 		}
 		return data;
 	}
+	
+	// New method added
+	public Map<String, String> getMapData(String sheetName, String refName) {
+		Map<String, String> data = new LinkedHashMap<String, String>();
+		int rowNum;
+		int colNum;
+		int lastRow = workbook.getSheet(sheetName).getLastRowNum();
+		int lastCol = workbook.getSheet(sheetName).getRow(0).getLastCellNum();
+		for (rowNum = 1; rowNum < lastRow; rowNum++) {
+			if (workbook.getSheet(sheetName).getRow(rowNum).getCell(0).getStringCellValue().equalsIgnoreCase(refName)) {
+				break;
+			}
+		}
+		for (colNum = 0; colNum < lastCol; colNum++) {
+			try {
+				if (workbook.getSheet(sheetName).getRow(0).getCell(colNum).getCellType() == CellType.STRING) {
+					data.put(workbook.getSheet(sheetName).getRow(0).getCell(colNum).getStringCellValue(),workbook.getSheet(sheetName).getRow(rowNum).getCell(colNum).getStringCellValue());
+				} else if (workbook.getSheet(sheetName).getRow(0).getCell(colNum).getCellType() == CellType.NUMERIC) {
+					String value = Double.toString(workbook.getSheet(sheetName).getRow(rowNum).getCell(colNum).getNumericCellValue());
+					data.put(workbook.getSheet(sheetName).getRow(0).getCell(colNum).getStringCellValue(),value);
+				}
+			} catch (NullPointerException i) {
+				data.put(workbook.getSheet(sheetName).getRow(0).getCell(colNum).getStringCellValue(), null);
+			}
+		}
+		return data;
+	}
 }

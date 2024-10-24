@@ -1,0 +1,71 @@
+2024-08-05 12:48:55.766  INFO 1 - [       main] c.epam.healenium.Application     : Starting Application v3.4.4 using Java 17.0.10 with PID 1 (/healenium-backend.jar started by root in /) 
+2024-08-05 12:48:55.864  INFO 1 - [       main] c.epam.healenium.Application     : No active profile set, falling back to 1 default profile: "default" 
+2024-08-05 12:49:13.828  INFO 1 - [       main] .RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-08-05 12:49:15.928  INFO 1 - [       main] .RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1976 ms. Found 4 JPA repository interfaces. 
+2024-08-05 12:49:27.152  INFO 1 - [       main] o.s.b.w.e.t.TomcatWebServer      : Tomcat initialized with port 7878 (http) 
+2024-08-05 12:49:27.198  INFO 1 - [       main] o.a.c.core.StandardService       : Starting service [Tomcat] 
+2024-08-05 12:49:27.200  INFO 1 - [       main] o.a.c.core.StandardEngine        : Starting Servlet engine: [Apache Tomcat/10.1.18] 
+2024-08-05 12:49:27.326  INFO 1 - [       main] o.a.c.c.C.[.[localhost].[/]      : Initializing Spring embedded WebApplicationContext 
+2024-08-05 12:49:27.329  INFO 1 - [       main] rvletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 29682 ms 
+2024-08-05 12:49:28.958  INFO 1 - [       main] c.z.hikari.HikariDataSource      : HikariPool-1 - Starting... 
+2024-08-05 12:49:29.943  INFO 1 - [       main] c.z.hikari.HikariDataSource      : HikariPool-1 - Start completed. 
+2024-08-05 12:49:30.632  INFO 1 - [       main] liquibase.database               : Set default schema name to healenium 
+2024-08-05 12:49:32.489  INFO 1 - [       main] liquibase.changelog              : Reading from healenium.databasechangelog 
+2024-08-05 12:49:32.631  INFO 1 - [       main] liquibase.ui                     : Database is up to date, no changesets to execute 
+2024-08-05 12:49:32.638  INFO 1 - [       main] liquibase.changelog              : Reading from healenium.databasechangelog 
+2024-08-05 12:49:32.667  INFO 1 - [       main] liquibase.util                   : UPDATE SUMMARY 
+2024-08-05 12:49:32.670  INFO 1 - [       main] liquibase.util                   : Run:                          0 
+2024-08-05 12:49:32.672  INFO 1 - [       main] liquibase.util                   : Previously run:              10 
+2024-08-05 12:49:32.675  INFO 1 - [       main] liquibase.util                   : Filtered out:                 0 
+2024-08-05 12:49:32.681  INFO 1 - [       main] liquibase.util                   : ------------------------------- 
+2024-08-05 12:49:32.683  INFO 1 - [       main] liquibase.util                   : Total change sets:           10 
+2024-08-05 12:49:32.685  INFO 1 - [       main] liquibase.util                   : Update summary generated 
+2024-08-05 12:49:32.773  INFO 1 - [       main] liquibase.lockservice            : Successfully released change log lock 
+2024-08-05 12:49:32.777  INFO 1 - [       main] liquibase.command                : Command execution complete 
+2024-08-05 12:49:33.218  INFO 1 - [       main] o.h.j.internal.util.LogHelper    : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-08-05 12:49:33.459  INFO 1 - [       main] org.hibernate.Version            : HHH000412: Hibernate ORM core version 6.4.1.Final 
+2024-08-05 12:49:33.583  INFO 1 - [       main] o.h.c.i.RegionFactoryInitiator   : HHH000026: Second-level cache disabled 
+2024-08-05 12:49:34.492  INFO 1 - [       main] .o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-08-05 12:49:34.585  WARN 1 - [       main] org.hibernate.orm.deprecation    : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-08-05 12:49:36.830  WARN 1 - [       main] o.h.m.internal.MetadataContext   : HHH015011: Unable to locate static metamodel field : com.epam.healenium.model.domain.Selector_#nodePathWrapper; this may or may not indicate a problem with the static metamodel 
+2024-08-05 12:49:36.842  INFO 1 - [       main] h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-08-05 12:49:36.849  INFO 1 - [       main] ontainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-08-05 12:49:38.752  INFO 1 - [       main] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used. 
+2024-08-05 12:49:40.565  INFO 1 - [       main] .a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2024-08-05 12:49:43.007  INFO 1 - [       main] .s.b.a.e.w.EndpointLinksResolver : Exposing 1 endpoint(s) beneath base path '/actuator' 
+2024-08-05 12:49:43.388  INFO 1 - [       main] o.s.b.w.e.t.TomcatWebServer      : Tomcat started on port 7878 (http) with context path '' 
+2024-08-05 12:49:44.603  INFO 1 - [       main] c.epam.healenium.Application     : Started Application in 55.31 seconds (process running for 66.77) 
+2024-08-05 12:49:50.388  INFO 1 - [7878-exec-1] o.a.c.c.C.[.[localhost].[/]      : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-08-05 12:49:50.388  INFO 1 - [7878-exec-1] o.s.w.s.DispatcherServlet        : Initializing Servlet 'dispatcherServlet' 
+2024-08-05 12:49:50.392  INFO 1 - [7878-exec-1] o.s.w.s.DispatcherServlet        : Completed initialization in 2 ms 
+2024-08-05 12:49:54.702  INFO 1 - [7878-exec-3] healenium                        : [Save Elements] Request: By.xpath(//input[@placeholder='Enter User ID or Registered Email ']) 
+2024-08-05 12:49:55.379  INFO 1 - [7878-exec-4] healenium                        : [Save Elements] Request: By.xpath(//input[@placeholder='Enter Password']) 
+2024-08-05 12:49:55.690  INFO 1 - [7878-exec-5] healenium                        : [Save Elements] Request: By.xpath(//button[@type='submit']) 
+2024-08-05 12:49:56.579  INFO 1 - [7878-exec-6] healenium                        : [Save Elements] Request: By.xpath(//button[@aria-label='account of current user']) 
+2024-08-05 12:49:56.822  INFO 1 - [7878-exec-7] healenium                        : [Save Elements] Request: By.xpath(//ul//li[@role='menuitem']) 
+2024-08-05 12:49:57.018  INFO 1 - [7878-exec-8] healenium                        : [Save Elements] Request: By.xpath(//ul//li[@role='menuitem']) 
+2024-08-05 12:49:57.414  INFO 1 - [7878-exec-9] healenium                        : [Save Elements] Request: By.xpath(//ul//li[@role='menuitem']) 
+2024-08-05 12:49:57.535  INFO 1 - [878-exec-10] healenium                        : [Save Elements] Request: By.xpath(//ul//li[@role='menuitem']) 
+2024-08-05 12:49:57.645  INFO 1 - [7878-exec-1] healenium                        : [Save Elements] Request: By.xpath(//ul//li[@role='menuitem']) 
+2024-08-05 12:49:57.760  INFO 1 - [7878-exec-2] healenium                        : [Save Elements] Request: By.xpath(//ul//li[@role='menuitem']) 
+2024-08-05 12:49:57.886  INFO 1 - [7878-exec-3] healenium                        : [Save Elements] Request: By.xpath(//ul//li[@role='menuitem']) 
+2024-08-05 12:50:02.438  INFO 1 - [7878-exec-6] healenium                        : [Save Elements] Request: By.xpath(//input[@placeholder='Enter User ID or Registered Email ']) 
+2024-08-05 12:50:02.810  INFO 1 - [7878-exec-7] healenium                        : [Save Elements] Request: By.xpath(//input[@placeholder='Enter Password']) 
+2024-08-05 12:50:03.039  INFO 1 - [7878-exec-8] healenium                        : [Save Elements] Request: By.xpath(//button[@type='submit']) 
+2024-08-05 12:50:03.895  INFO 1 - [7878-exec-9] healenium                        : [Save Elements] Request: By.xpath(//button[@aria-label='account of current user']) 
+2024-08-05 12:50:04.031  INFO 1 - [878-exec-10] healenium                        : [Save Elements] Request: By.xpath(//ul//li[@role='menuitem']) 
+2024-08-05 12:50:04.232  INFO 1 - [7878-exec-1] healenium                        : [Save Elements] Request: By.xpath(//ul//li[@role='menuitem']) 
+2024-08-05 12:50:04.329  INFO 1 - [7878-exec-2] healenium                        : [Save Elements] Request: By.xpath(//ul//li[@role='menuitem']) 
+2024-08-05 12:50:04.405  INFO 1 - [7878-exec-3] healenium                        : [Save Elements] Request: By.xpath(//ul//li[@role='menuitem']) 
+2024-08-05 12:50:04.498  INFO 1 - [7878-exec-4] healenium                        : [Save Elements] Request: By.xpath(//ul//li[@role='menuitem']) 
+2024-08-05 12:50:04.571  INFO 1 - [7878-exec-5] healenium                        : [Save Elements] Request: By.xpath(//ul//li[@role='menuitem']) 
+2024-08-05 12:50:04.648  INFO 1 - [7878-exec-6] healenium                        : [Save Elements] Request: By.xpath(//ul//li[@role='menuitem']) 
+2024-08-05 12:51:55.399  INFO 1 - [7878-exec-4] healenium                        : [Save Elements] Request: By.cssSelector(#number) 
+2024-08-05 12:51:55.860  INFO 1 - [7878-exec-5] healenium                        : [Save Elements] Request: By.cssSelector(#password) 
+2024-08-05 12:51:56.042  INFO 1 - [7878-exec-6] healenium                        : [Save Elements] Request: By.cssSelector(button[type='submit']) 
+2024-08-05 12:53:53.920  INFO 1 - [7878-exec-3] healenium                        : [Save Elements] Request: By.cssSelector(#number) 
+2024-08-05 12:53:54.296  INFO 1 - [7878-exec-4] healenium                        : [Save Elements] Request: By.cssSelector(#password) 
+2024-08-05 12:53:54.475  INFO 1 - [7878-exec-5] healenium                        : [Save Elements] Request: By.cssSelector(button[type='submit']) 
+2024-08-05 12:54:47.642  INFO 1 - [hutdownHook] ontainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-08-05 12:54:47.647  INFO 1 - [hutdownHook] c.z.hikari.HikariDataSource      : HikariPool-1 - Shutdown initiated... 
+2024-08-05 12:54:47.652  INFO 1 - [hutdownHook] c.z.hikari.HikariDataSource      : HikariPool-1 - Shutdown completed. 
